@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --primary-color: #E32C89;
     --secondary-color: #FAE3E3;
@@ -17,6 +21,53 @@
 
 body {
     background-color: var(--background-color);
+}
+
+.nav-container {
+    position: fixed;
+    height: 50px;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 0 5%;
+    background-color: transparent;
+}
+.nav-logo {
+    float: left;
+    font-size: 30px;
+    color: var(--secondary-color);
+    text-decoration: none;
+    line-height: 50px;
+    font-family: Permanent Marker;
+}
+
+.nav-links {
+    float: right;
+    padding: 0;
+    margin: 0;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-links li {
+    list-style-type: none;
+}
+
+.nav-links a {
+    display: block;
+    padding: 18px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Gothic A1;
+    color: var(--secondary-color);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-links a:hover{
+    color: var(--primary-color);
 }
 
 .hero-section {
@@ -40,4 +91,37 @@ body {
     font-size: 228px;
     font-family: Gothic A1;
     color: var(--white-text-color);
+}
+
+.hero-social {
+    position: absolute;
+    display: grid;
+    grid-template-columns: max-content;
+    row-gap: 18px;
+    bottom: 60px;
+    right: 60px;
+}
+
+.hero-social-icon {
+    font-size: 20px;
+    color: var(--secondary-color);
+}
+
+.hero-social-icon:hover {
+    color: var(--primary-color);
+}
+
+.hero-arrow-down{
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+}
+
+.hero-arrow{
+    font-size: 40px;
+    color: var(--secondary-color);
+}
+
+.hero-arrow:hover{
+    color: var(--primary-color);
 }
