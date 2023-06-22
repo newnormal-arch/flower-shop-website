@@ -3,3 +3,26 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --primary-color: #E32C89;
+    --secondary-color: #FAE3E3;
+    --background-color: #0F1910;
+    --white-text-color: #FFF;
+    --black-text-color: #000;
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+.hero-section{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    background-image: url(/images/hero-bg.png);
+    background-size: 100% 100vh;
+    height: 100vh;
+    width: 100%;
+}
