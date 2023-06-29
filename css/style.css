@@ -144,7 +144,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: url(/img/hero-bg.png);
+    background-image: url(../img/hero-bg.png);
     background-size: 100% 100vh;
     height: 100vh;
     width: 100%;
@@ -412,17 +412,17 @@ body {
 .item-1 {
     z-index: 2;
     opacity: 1;
-    background: url('/img/bouquet-bg.png');
+    background: url('../img/bouquet-bg.png');
     background-size: cover;
 }
 
 .item-2 {
-    background: url('/img/bouquet-bg-3.png');
+    background: url('../img/bouquet-bg-3.png');
     background-size: cover;
 }
 
 .item-3 {
-    background: url('/img/bouquet-bg-2.png');
+    background: url('../img/bouquet-bg-2.png');
     background-size: cover;
 }
 
