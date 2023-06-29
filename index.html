@@ -17,23 +17,35 @@
 </head>
 
 <body>
-    <nav class="nav-container">
-        <a href="" class="nav-logo">Logo</a>
-        <ul class="nav-links">
+    <header>
+        <nav class="navbar">
+            <a href="" class="nav-logo">Logo</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Products</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            <div class="toggle-btn">
+                <i class="uil uil-bars"></i>
+            </div>
+    
+        </nav>
+        <div class="dropdown-menu">
             <li><a href="#home">Home</a></li>
-            <li><a href="#about">Product</a></li>
-            <li><a href="#menu">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Products</a></li>
             <li><a href="#contact">Contact Us</a></li>
-        </ul>
-    </nav>
+        </div>
+    </header>
+    
     <section class="hero-section">
         <div class="hero-content">
             <h2 class="hero-heading">Earth Laughs In</h2>
             <h1 class="hero-subheading">FLOWER</h1>
         </div>
         <div class="hero-social">
-            <a href="#" target="_blank"
-                class="hero-social-icon">
+            <a href="#" target="_blank" class="hero-social-icon">
                 <i class="uil uil-facebook-f"></i>
             </a>
             <a href="#" target="_blank" class="hero-social-icon">
@@ -44,11 +56,184 @@
             </a>
         </div>
         <div class="hero-arrow-down">
-            <a href="#" class="hero-arrow">
+            <a href="#about" class="hero-arrow">
                 <i class="uil uil-angle-double-down"></i>
             </a>
         </div>
     </section>
+    
+    <section class="collection-section" id="about">
+        <div class="collection-content">
+            <div class="collection-content-1">
+                <img src="./img/flowers-img.png" class="collection-img" alt="Autumn Collection Flowers">
+            </div>
+            <div class="collection-content-2">
+                <h2 class="collection-title">Fresh Autumn Collection</h2>
+                <p class="collection-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                    nonumy eirmod tempor invidunt
+                    ut labore et dolore magna aliquyam erat.</p>
+                <p class="collection-price">R 29.99</p>
+                <a href="#" class="cart-btn">Add to Cart</a>
+            </div>
+            <div class="collection-content-3">
+                <h2 class="collection-title-delivery">Our Services & Delivery</h2>
+                <p class="collection-info">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                    eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+            </div>
+        </div>
+    </section>
+    <section class="offers-section" id="menu">
+        <h2 class="offers-title">Daily Offers:</h2>
+        <div class="offers-content">
+            <div class="offers-tile">
+                <div class="offers-card">
+                    <img src="./img/bouquet-2.png" class="offers-img" alt="Bouquet 1">
+                    <div class="offers-description">
+                        <h2>Weddings</h2>
+                        <p>Wedding bouquets are a beautiful and traditional way to celebrate the bride's special day.
+                        </p>
+                    </div>
+                </div>
+                <div class="bouquet-prices">
+                    <p class="discounted-price">R 29.99</p>
+                    <p class="original-price">R 59.99</p>
+                </div>
+                <a href="#" class="cart-btn">Add to Cart</a>
+            </div>
+            <div class="offers-tile">
+                <div class="offers-card">
+                    <img src="./img/bouquet-3.png" class="offers-img" alt="Bouquet 1">
+                    <div class="offers-description">
+                        <h2>Anniversaries</h2>
+                        <p>Anniversaries are a time to celebrate the love and commitment you share with your partner.
+                        </p>
+                    </div>
+                </div>
+                <div class="bouquet-prices">
+                    <p class="discounted-price">R 29.99</p>
+                    <p class="original-price">R 59.99</p>
+                </div>
+                <a href="#" class="cart-btn">Add to Cart</a>
+            </div>
+            <div class="offers-tile">
+                <div class="offers-card">
+                    <img src="./img/bouquet-1.png" class="offers-img" alt="Bouquet 1">
+                    <div class="offers-description">
+                        <h2>Valentine's</h2>
+                        <p>Valentine's Day is the perfect occasion to show your loved one how much you care with
+                            flowers.</p>
+                    </div>
+                </div>
+                <div class="bouquet-prices">
+                    <p class="discounted-price">R 29.99</p>
+                    <p class="original-price">R 59.99</p>
+                </div>
+                <a href="#" class="cart-btn">Add to Cart</a>
+            </div>
+        </div>
+    </section>
+    <section class="carousel-section">
+        <div class="carousel-wrapper">
+            <span id="item-1"></span>
+            <span id="item-2"></span>
+            <span id="item-3"></span>
+            <div class="carousel-item item-1">
+                <a href="#item-3" class="arrow-prev arrow"></a>
+                <div class="carousel-content">
+                    <h2 class="carousel-title">Wedding Bouquet</h2>
+                    <p class="carousel-text">We create custom wedding bouquets, centerpieces, and other floral
+                        arrangements to match your wedding theme and style.</p>
+                </div>
+                <a href="#item-2" class="arrow-next arrow"></a>
+            </div>
+
+            <div class="carousel-item item-2">
+                <a href="#item-1" class="arrow-prev arrow"></a>
+                <div class="carousel-content">
+                    <h2 class="carousel-title">Valentine's Day Bouquet</h2>
+                    <p class="carousel-text">Celebrate Valentine's Day with a romantic bouquet of roses or other
+                        flowers.</p>
+                </div>
+                <a href="#item-3" class="arrow-next arrow"></a>
+            </div>
+
+            <div class="carousel-item item-3">
+                <a href="#item-2" class="arrow-prev arrow"></a>
+                <div class="carousel-content">
+                    <h2 class="carousel-title">Anniversary Bouquet</h2>
+                    <p class="carousel-text">Show your loved one how much you care with a beautiful anniversary bouquet.
+                    </p>
+                </div>
+                <a href="#item-1" class="arrow-next arrow"></a>
+            </div>
+
+        </div>
+    </section>
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-categories">
+                <h2 class="footer-title">Categories</h2>
+                <ul class="footer-lists">
+                    <li>Wedding</li>
+                    <li>Love & Romance</li>
+                    <li>Gift</li>
+                    <li>Greetings</li>
+                    <li>Sympathy</li>
+                </ul>
+            </div>
+            <div class="footer-categories">
+                <h2 class="footer-title">Information</h2>
+                <ul class="footer-lists">
+                    <li>About Us</li>
+                    <li>Delivery Information</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms & Conditions</li>
+                    <li>Why Us?</li>
+                </ul>
+            </div>
+            <div class="footer-categories">
+                <h2 class="footer-title">My Account</h2>
+                <ul class="footer-lists">
+                    <li>My Account</li>
+                    <li>Order History</li>
+                    <li>Wishlists</li>
+                    <li>News Letter</li>
+                </ul>
+            </div>
+            <div class="footer-categories">
+                <h2 class="footer-title">Contact Us</h2>
+                <ul class="footer-lists">
+                    <li>Address: Pretoria, Johannesburg</li>
+                    <li>Mobile Number: 071 855 2463</li>
+                    <li>Office Number: 012 578 6532</li>
+                    <li>Email: logo@flowers.com</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <script>
+        const toggleBtn = document.querySelector('.toggle-btn')
+        const toggleBtnIcon = document.querySelector('.toggle-btn i')
+        const dropDownMenu = document.querySelector('.dropdown-menu')
+
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+
+            toggleBtnIcon.classList = isOpen ? 'uil uil-multiply' : 'uil uil-bars'
+        }
+
+        function scrollUp() {
+            const scrollUp = document.getElementById('scroll-up');
+            if (this.scrollY >= 560) scrollUp.classList.add('show-scroll'); else scrollUp.classList.remove('show-scroll')
+        }
+        window.addEventListener('scroll', scrollUp)
+    </script>
 </body>
 
 </html>
