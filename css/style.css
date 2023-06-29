@@ -289,6 +289,18 @@ body {
     margin: 60px;
 }
 
+@media (max-width: 996px) {
+    .offers-section{
+        margin: 40px;
+    }
+}
+
+@media (max-width: 596px) {
+    .offers-section{
+        margin: 20px;
+    }
+}
+
 .offers-title {
     color: var(--grey-text-color);
     text-decoration: underline var(--grey-text-color) 3px;
