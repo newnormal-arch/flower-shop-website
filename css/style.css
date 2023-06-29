@@ -476,6 +476,12 @@ body {
     margin-bottom: 30px;
 }
 
+.footer-copy{
+    text-align: center;
+    color: var(--grey-text-color);
+    margin: 30px;
+}
+
 .scrollup {
     position: fixed;
     right: 18px;
